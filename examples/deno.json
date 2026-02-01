@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-net --allow-env --watch deno-deploy.ts"
+  },
+  "imports": {
+    "sqlite-saas-edge": "../sdk/edge/src/index.ts"
+  },
+  "compilerOptions": {
+    "lib": ["deno.window"]
+  }
+}

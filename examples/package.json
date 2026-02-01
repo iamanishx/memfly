@@ -1,0 +1,7 @@
+{
+  "name": "sqlite-saas-examples",
+  "type": "module",
+  "dependencies": {
+    "sqlite-saas-edge": "file:../sdk/edge"
+  }
+}
